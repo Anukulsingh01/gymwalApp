@@ -14,7 +14,7 @@ function App() {
     <>
       <Box width="400px" sx={{width:{xl:'1488px'}}} m="auto">
          <Navbar/>
-         <Routes  basename="/gymwalApp">
+         <Routes >
           <Route path='/' element={<Home/>}/>
          <Route path='/exercise/:id' element={<ExerciseDetail/>}/>
          </Routes>
